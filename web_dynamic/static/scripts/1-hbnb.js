@@ -1,5 +1,10 @@
 #!/usr/bin/node
-$(document).ready(() => {
-  let dict = [];
-  
-});
+
+let checkbox = document.querySelector('input[type=checkbox]');
+checkbox.addEventListener('change', function () {
+    if (this.checked) {
+        checked.querySelector('#checkbox');
+    } else {
+
+    }
+})
